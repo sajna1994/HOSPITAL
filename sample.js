@@ -5,14 +5,15 @@ router.use(express.json());
 router.use(express.urlencoded({extended:true}));
 const fs=require('fs');
 const rawData = fs.readFileSync('data.json');
-const jsonData =JSON.parse(rawData)
+const jsonData =JSON.parse(rawData);
+
 router.get('/',(req,res)=>{
-    res.send(rawData);
+    res.send(jsonData);
 
 });
 router.post('/add',(req,res)=>{
     console.log(req.body);
-    res.send(rawData);
+    res.send(jsonData);
 
 });
 router.put('/update/:ind',(req,res)=>{
