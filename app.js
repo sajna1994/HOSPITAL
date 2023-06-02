@@ -9,7 +9,7 @@ app.use('/api',api);
 const PORT=process.env.PORT;
 const path = require('path');
 
-const dataFilePath = path.join(__dirname, 'data.json','index.html');
+const dataFilePath = path.join(__dirname, 'data.json');
 
 app.listen(PORT,()=>{
     console.log(`server is running on port ${PORT}`);
