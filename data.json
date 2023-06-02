@@ -1,0 +1,20 @@
+
+[
+    {"id":1,
+        "NameHospital": "Amrita",
+        "PatientCount": 300,
+        "HospitalLocation": "thrissur"
+    },
+     {
+       "id":2, 
+        "NameHospital": "Mims",
+        "PatientCount": 500,
+        "HospitalLocation": "kozhikkode"
+    },
+    { 
+        "id":3,
+        "NameHospital": "MES",
+        "PatientCount": 200,
+        "HospitalLocation": "malappuram"
+    }
+]
